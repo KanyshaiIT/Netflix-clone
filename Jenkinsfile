@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = 'aisalkyn85'
+        DOCKERHUB_USER = 'emilovaa'
         IMAGE_NAME = 'netflix-clone'
         VERSION = "v1"
         TMDB_V3_API_KEY = credentials('tmdb-api-key')  // Optional: store API key in Jenkins credentials
