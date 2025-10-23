@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: kanykei0909/netflix-clone:latest   # <-- сенин Docker Hub образың
+          image: emilovaa/netflix-clone:latest   # <-- сенин Docker Hub образың
           imagePullPolicy: Always
           ports:
             - containerPort: 80
